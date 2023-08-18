@@ -7,7 +7,45 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<!-- the entire body must be written by the student -->
+	<form>
+		
+	<label for = "name">Name</label>
+	<input type ="text" id="name" required placeholder="Name"><br><br>
+
+	<label for = "email">Email</label>
+	<input type ="email" id="email" required placeholder="Email"><br><br>
+
+	<label >Gender</label>
+	<label for = "gender_m">Male</label>
+	<input type ="radio" id="gender_m" name = "gender" equired placeholder="">
+	<label for = "gender_f">Female</label>
+    <input type ="radio" id="gender_f" name ="gender" equired placeholder=""><br><br>
+		
+ 	<label for="cars">Car Brands *</label>
+		    <select id="cars" name="cars" required>
+		        <option value="" disabled selected>Please choose an option</option>
+		        <option value="audi">Audi</option>
+		        <option value="bmw">BMW</option>
+		        <option value="mercedes">Mercedes</option>
+		    </select><br><br>
+
+	<label for = "age">Age</label>
+	<input type ="number" id="age" required placeholder="Age"><br><br>
+
+	<label for = "dob">DOB</label>
+	<input type ="date" id="dob" required placeholder="-"><br><br>
+
+	<label for = "tel">Phone Number</label>
+	<input type ="tel" id="tel"  placeholder="xxx-xxx-xxxx"><br><br>
+
+	<label for = "password">Password</label>
+	<input type ="password" id="password" required placeholder=""><br><br>
+
+	<label for = "tos">I agree to the TOS</label>
+	<input type ="checkbox" id="tos" required placeholder="-">
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
